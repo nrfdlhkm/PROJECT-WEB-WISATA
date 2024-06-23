@@ -113,7 +113,7 @@ header {
   background-size: cover;
   background-position: center; 
   border-radius: 40px 40px 40px 40px;
-  background-image:  url(image/borobudur.jpg);
+  background-image: linear-gradient(to left, rgba(0,0,0,0.2), rgba(0,0,0,0.2)), url(image/bromo\ bg.png);
   /* box-shadow: 3px 0 20px #000; */
 }
 

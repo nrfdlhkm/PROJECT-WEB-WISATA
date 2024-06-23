@@ -113,10 +113,9 @@ header {
   background-size: cover;
   background-position: center; 
   border-radius: 40px 40px 40px 40px;
-  background-image:  url(image/cuaca\ bg.png);
+  background-image:  url(image/112\ bg.png);
   /* box-shadow: 3px 0 20px #000; */
 }
-
 
 
 /*       HOME SECTION       */
@@ -127,7 +126,7 @@ header {
   padding: 20px; 
 }
 .center-text2 h2{
-  font-size: 2.5em;
+  font-size: 2.8em;
   text-align: left;
   margin-top: 30px;
   display: inline-block; 
@@ -152,7 +151,7 @@ header {
 
 /* text-container1 */
 .text-container1 {
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.139);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.139);
   border-radius: 10px 10px 10px 10px ;
   padding: 20px;
   text-align: justify;
@@ -168,7 +167,66 @@ header {
   margin-bottom: 30px;
   font-size: 17px; 
   color: #555;
-  line-height: 1.6;
+  line-height: 1.8;
+  text-align: justify;
+}
+
+/* text-container2 */
+.text-container2 {
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.139);
+  border-radius: 10px 10px 10px 10px ;
+  padding: 20px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+.text-container2 h1 {
+  margin: 0;
+  font-size: 1.7rem; 
+  color: #1B9C57;
+  margin-bottom: 15px;
+}
+.text-container2 p {
+  margin-bottom: 30px;
+  font-size: 1rem; 
+  color: #555;
+  line-height: 1.8;
+}
+
+.calling-section {
+  margin-bottom: 10px;
+}
+.calling-section h1 {
+  margin-left: 3px;
+  font-size: 20px;
+  font-weight: 750;
+  margin-top: 20px;
+  color: #000000be;
+}
+.calling-section h2 {
+  margin-left: 28px;
+  font-size: 19px;
+  font-weight: 650;
+  color: #000000b8;
+}
+.calling-section h3 {
+  margin-bottom: 30px;
+  margin-left: 28px;
+  font-size: 18px;
+  font-weight: 600;
+  color: #000000b8;
+}
+.calling-section ul {
+  position: relative;
+  margin: 0;
+  padding-left: 20px;
+  margin-bottom: 30px;
+}
+.calling-section li {
+  font-size: 17px;
+  line-height: 1.8;
+  color: #666666;
+  margin-top: 10px;
+  margin-bottom: 15px;
 }
 
 

@@ -113,26 +113,37 @@ header {
   background-size: cover;
   background-position: center; 
   border-radius: 40px 40px 40px 40px;
-  background-image:  url(image/cuaca\ bg.png);
+  background-image:  url(image/tarian.png);
   /* box-shadow: 3px 0 20px #000; */
 }
 
 
 
-/*       HOME SECTION       */
+
+/*         HOME          */
 .center-text2 {
   width: 80%;
   max-width: 900px;
   margin: 0 auto;
-  padding: 20px; 
+  padding: 20px;
 }
 .center-text2 h2{
-  font-size: 2.5em;
+  font-size: 2.1em;
   text-align: left;
-  margin-top: 30px;
-  display: inline-block; 
+  margin-top: 20px;
+  /* display: inline-block;  */
   position: relative; 
 }
+
+/* LINE */
+/* .center-text2 h2::after {
+  content: ''; 
+  position: absolute; 
+  left: 0; 
+  bottom: -20px; 
+  width: 100%; 
+  border-bottom: 2px solid #00000028; 
+} */
 
 /* TEKS */
 .container-teks {
@@ -176,17 +187,16 @@ header {
 /*        FOOTER SECTION       */
 .Footer {
   display: grid;
-  gap: 2rem;
-  margin-top: 70px;
-  border-radius: 60px 60px 0 0;
-  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.1);
   grid-template-columns: repeat(auto-fit, minmax(200px, auto));
+  gap: 2rem;
+  border-radius: 60px 60px 0 0;
+  margin-top: 10px;
+  box-shadow: 0 4px 50px rgba(0, 0, 0, 0.1);
   /* box-shadow: 0 3px 10px #000; */
 }
 .footer-box{
   display: flex;
   flex-direction: column;
-  padding: 10px; 
 }
 .footer-box h3{
   font-size: 20px;
@@ -200,8 +210,8 @@ header {
   transition: all .50s ease;
 }
 .footer-box a:hover{
-  transform: translateX(-5px);
-  color: #777;
+   transform: translateX(-5px);
+   color: #777;
 }
 .social a{
   display: inline-flex;

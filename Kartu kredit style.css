@@ -1,4 +1,4 @@
-  *{
+*{
   padding: 0;
   margin: 0;
   box-sizing: border-box;
@@ -113,9 +113,10 @@ header {
   background-size: cover;
   background-position: center; 
   border-radius: 40px 40px 40px 40px;
-  background-image:  url(image/cuaca\ bg.png);
+  background-image:  url(image/kredit\ bg.png);
   /* box-shadow: 3px 0 20px #000; */
 }
+
 
 
 
@@ -129,11 +130,10 @@ header {
 .center-text2 h2{
   font-size: 2.5em;
   text-align: left;
-  margin-top: 30px;
+  margin-top: 40px;
   display: inline-block; 
   position: relative; 
 }
-
 /* TEKS */
 .container-teks {
   width: 80%;
@@ -154,8 +154,8 @@ header {
 .text-container1 {
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.139);
   border-radius: 10px 10px 10px 10px ;
-  padding: 20px;
   text-align: justify;
+  padding: 20px;
   margin-bottom: 30px;
 }
 .text-container1 h1 {
